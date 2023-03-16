@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Homepage!!! </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+        <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #cacaca;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #7a2222;
+        box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+      }
+      h1 {
+        font-size: 2.5em;
+        margin: 0;
+      }
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+      nav li {
+        margin: 0 10px;
+      }
+      nav a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 1.2em;
+      }
+      main {
+        padding: 20px;
+      }
+      section {
+        margin-bottom: 40px;
+      }
+      h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        margin-bottom: 10px;
+      }
+      footer {
+        background-color: #1f1f1f;
+        color: #7a2222;
+        padding: 20px;
+        text-align: center;
+      }
+      </style>
+  </head>
+  <body>
+    <header>
+      <h1>Pagetwo!!</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <h2>Contact Me</h2>
+      <p>Please fill out the form below to get in touch with me.</p>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required><br>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea><br>
+        
+        <button type="submit">Send</button>
+      </form>
+    </main>
+    
+    <footer>
+      <p>&copy; 2023 My Homepage</p>
+    </footer>
+  </body>
+</html>
